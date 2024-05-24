@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+  background-color: #e9cdd5;
+  color: #fff;
+  font-family: Unbounded;
+}
+
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3% auto;
+}
+
+h1 {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+  font-family: Unbounded;
+}
+
+.isi {
+  border-bottom: 3px dashed #815561;
+  border-top: 3px dashed #815561;
+  margin: 50px auto;
+  padding: 50px 0;
+  font-size: 18px;
+  width: 50%;
+}
+
+.form {
+  background-color: #efe6e9;
+  padding: 30px;
+  width: 50%;
+  color: #232222;
+  border-radius: 10px;
+  font-family: "cinzel" sans-serif;
+}
+
+.mb-3 label {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.jenisBb select {
+  width: 40%;
+  font-size: 15px;
+}
+
+.jenisB
+
+.mb-3 input {
+  width: 100%;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.mb-3 input:focus {
+  box-shadow: 0 0 10px rgb(129, 85, 97);
+  border:  rgb(129, 85, 97);
+}
+
+.form button {
+  background-color: #815561;
+  padding: 5px ;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 20px;
+  color: #fff;
+  margin: auto;
+  border: none;
+}
+
+.form button:active {
+  box-shadow: 0 -2px #6e4751;
+  transform: translateY(4px);
+  background-color: #d69ead;
+}
+
+strong {
+  text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
